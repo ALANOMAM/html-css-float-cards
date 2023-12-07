@@ -18,6 +18,9 @@
     margin-right: auto;
 }
 
+.info{
+    display: inline-block;
+}
 .block{
 float: left;
 
