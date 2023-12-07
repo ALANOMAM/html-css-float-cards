@@ -32,13 +32,18 @@ img{
     vertical-align: middle;
 }
 
-.info p:nth-child(1){ /* sto strgetizzando tutti i nomi e cognomi*/ 
+.info p:nth-child(1){ /* sto targetizzando tutti i nomi e cognomi*/ 
     font-size: 20px;
 }
 
-.info p:nth-child(2), p:nth-child(3){  /* sto strgetizzando tutti i lavori e le email*/ 
+.info p:nth-child(2), p:nth-child(3){  /* sto targetizzando tutti i lavori e le email*/ 
     font-size: 16px;
 
+}
+
+.info p:last-child{  /* sto targetizzando le email solo */
+    color: rgba(67, 130, 163, 1);
+    
 }
 
 .block{
