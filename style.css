@@ -8,6 +8,13 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+/* SCATOLA AGGIUNTA SOLO PER MONITORARE L'EFFETTO DEL CLEARFIX, NON ERA NELLA CONSEGNA*/
+.box{
+    width:100px;
+    height: 100px;
+    background-color: brown;
+}
+
 .clearfix::after{
     content:'';
     display:table;
@@ -28,6 +35,7 @@ header p{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 
@@ -43,21 +51,21 @@ img{
     vertical-align: middle;
 }
 
-.info p:nth-child(1){ /* sto targetizzando tutti i nomi e cognomi*/ 
+.info div:nth-child(1){ /* sto targetizzando tutti i nomi e cognomi*/ 
     font-size: 20px;
     color: white;
 }
 
-.info p:nth-child(2), p:nth-child(3){  /* sto targetizzando tutti i lavori e le email*/ 
+.info div:nth-child(2), p:nth-child(3){  /* sto targetizzando tutti i lavori e le email*/ 
     font-size: 16px;
 
 }
 
-.info p:nth-child(2){
+.info div:nth-child(2){
  color: white;
 }
 
-.info p:last-child{  /* sto targetizzando le email solo */
+.info div:last-child{  /* sto targetizzando le email solo */
     color: rgba(67, 130, 163, 1);
     
 }
